@@ -1,4 +1,3 @@
-import br.com.chicorialabs.digionebank.model.Pessoa
 import br.com.chicorialabs.digionebank.model.TipoCliente
 
 fun main(){
