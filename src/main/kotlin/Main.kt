@@ -6,4 +6,11 @@ fun main(){
 
     println(han.nome)
     println(han.cpf)
+
+    var tokenTeste = han.Token().atualizaToken(System.currentTimeMillis())
+    println(tokenTeste)
+    println(han.Token().validaToken(1234))
+    println(han.Token().validaToken(tokenTeste))
+    println(han.info())
+
 }
