@@ -1,4 +1,3 @@
 package br.com.chicorialabs.digionebank.model
 
-class Pessoa {
-}
+class Pessoa(val nome: String, val cpf: String)
