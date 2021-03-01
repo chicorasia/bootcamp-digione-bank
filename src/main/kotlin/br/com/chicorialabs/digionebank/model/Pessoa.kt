@@ -1,7 +1,8 @@
 package br.com.chicorialabs.digionebank.model
 
 class Pessoa(val nome: String,
-                  val cpf: String){
+             val cpf: String,
+){
 
     private var token: Int = 0
 

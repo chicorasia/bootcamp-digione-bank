@@ -2,7 +2,8 @@
 
 Projeto desenvolvido ao longo do módulo **Fundamentos de Orientação a Objetos com Kotlin**, instrutor Jether Rodrigues.
 
-Além dos conteúdos do módulo, o projeto explora conceitos de Clean Architecture e Domain Driven Designm, além de testes automatizados (JUnit4 e Hamcrest).
+Além dos conteúdos do módulo, o projeto explora conceitos de Clean Architecture e Domain Driven Design.
+Inclui testes automatizados (JUnit4 e Hamcrest).
 
 *****
 
