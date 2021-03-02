@@ -1,5 +1,6 @@
 package br.com.chicorialabs.digionebank.model
 
+import br.com.chicorialabs.digionebank.model.banco.Banco
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.CoreMatchers.equalTo
 import org.junit.Assert.*

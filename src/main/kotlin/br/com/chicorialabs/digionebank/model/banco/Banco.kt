@@ -1,4 +1,4 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.banco
 
 data class Banco(
     val nome: String,

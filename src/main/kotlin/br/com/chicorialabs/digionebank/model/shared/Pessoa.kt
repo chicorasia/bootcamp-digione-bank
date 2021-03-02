@@ -1,4 +1,4 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.shared
 
 abstract class Pessoa(
     val nome: String,

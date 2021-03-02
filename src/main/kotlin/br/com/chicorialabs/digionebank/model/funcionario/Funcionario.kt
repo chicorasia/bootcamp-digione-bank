@@ -1,9 +1,8 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.funcionario
 
 import br.com.chicorialabs.digionebank.extension.formatoRealBrasileiro
+import br.com.chicorialabs.digionebank.model.shared.Pessoa
 import java.math.BigDecimal
-import java.text.DecimalFormat
-import java.util.*
 
 abstract class Funcionario(
     nome: String,

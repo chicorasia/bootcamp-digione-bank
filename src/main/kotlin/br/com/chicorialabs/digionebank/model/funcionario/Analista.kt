@@ -1,4 +1,4 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.funcionario
 
 import java.math.BigDecimal
 

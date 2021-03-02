@@ -1,5 +1,7 @@
 package br.com.chicorialabs.digionebank.model
 
+import br.com.chicorialabs.digionebank.model.funcionario.Analista
+import br.com.chicorialabs.digionebank.model.funcionario.Funcionario
 import org.hamcrest.CoreMatchers.`is`
 import org.hamcrest.CoreMatchers.equalTo
 import org.junit.Assert

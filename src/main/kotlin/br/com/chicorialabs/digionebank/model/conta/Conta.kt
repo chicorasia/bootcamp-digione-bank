@@ -1,5 +1,6 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.conta
 
+import br.com.chicorialabs.digionebank.exception.SaldoInsuficienteException
 import java.math.BigDecimal
 
 class Conta(
@@ -17,6 +18,7 @@ class Conta(
 
     fun saca(valor: Double){
         if (podeSacar(valor)) saldo -= valor.toBigDecimal()
+        else throw SaldoInsuficienteException("Saldo insuficiente para realizar a operação")
     }
 
     fun podeSacar(valor: Double): Boolean {

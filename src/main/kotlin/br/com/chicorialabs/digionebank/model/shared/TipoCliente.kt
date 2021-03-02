@@ -1,4 +1,4 @@
-package br.com.chicorialabs.digionebank.model
+package br.com.chicorialabs.digionebank.model.shared
 
 enum class TipoCliente(val descricao: String) {
     PF("Pessoa Física"),

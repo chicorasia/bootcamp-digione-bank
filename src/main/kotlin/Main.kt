@@ -1,12 +1,5 @@
-import br.com.chicorialabs.digionebank.model.TipoCliente
+import br.com.chicorialabs.digionebank.model.cliente.Cliente
 
 fun main(){
-
-    TipoCliente.values().forEach {
-        println("${it.name}: ${it.descricao}")
-    }
-
-    TipoCliente.PF.imprimeTipoDeClienteFormatado()
-    TipoCliente.PJ.imprimeTipoDeClienteFormatado()
 
 }
